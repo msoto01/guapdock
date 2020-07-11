@@ -1,0 +1,5 @@
+# Use this command to run guapcoin-qt from the guapgui tagged docker image with GUI.
+docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix guapgui guapcoin-qt
+
+NOTES:
+Recommend identifying a data directory reachable from your network in order to preserve preferences
